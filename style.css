@@ -1,0 +1,54 @@
+nav {
+	background-color: #FFB4B0;
+	outline: #000 solid 1px;
+	margin-bottom: 20px;
+}
+
+.nav > li {
+    float: left;
+    list-style-type: none;
+    margin: 5px 15px 0 15px;
+    font-family: "Arial";
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: red;
+}
+
+a:link, a:visited {
+  font-size: 15px;
+  -webkit-transition: font-size 1s ease;
+  -moz-transition: font-size 1s ease;
+  -o-transition: font-size 1s ease;
+  transition: font-size 4s ease;
+}
+
+a:hover {
+  font-size: 100px;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+}
